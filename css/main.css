@@ -1,0 +1,414 @@
+/*	all pages*/
+	body 
+	{
+		font-family: 'Bernard MT', Arial, sans-serif;
+		color:#136D37;
+	}
+
+	footer
+	{
+		margin-top:-9px;
+	}
+
+	.hidden 
+	{
+		display: none;
+	}
+
+	.selected
+	{
+		color:#29402C;
+		text-decoration:underline;
+	}
+
+	#container
+	{
+		width:920px;
+		margin:0 auto;
+	}
+
+	#header 
+	{
+		display:flex;
+		flex-direction: row;
+		width:921px;
+	}
+
+	#mainNav
+	{
+		margin-top:90px;
+		margin-left:20px;
+		Font-size:25px;
+		width:900px;
+	}
+
+	#mainNav ul
+	{
+		display:flex;
+	}
+
+	#mainNav ul li a {
+		display: block;
+		margin-right: 24px;
+		color:#136D37;
+		text-decoration:none;
+	}
+
+	#mainNav ul li a:hover,#footerNav ul li a:hover, #selected:hover, #top:hover {
+		color:#F61712;
+	}
+
+	#socialMediaTop
+	{
+		Height:63px;
+		Width:192px;
+		margin-top:5px;
+		margin-left:-300px;
+	}
+	#insta, #twitter 
+	{
+		margin-right:10px;
+	}
+
+	#bar1, #bar2, #bar3, #bar4, #bar5
+	{
+		Height:15px;
+		Width:920px;
+	}
+
+	#bar3
+	{
+		background-color: #29402C;
+	}
+
+	#bar4
+	{
+		background-color: #29402C;
+	}
+
+	#footerTop 
+	{
+		display:flex;
+		flex-direction: row;
+	}
+
+	#connect
+	{
+		Font-size:29px;
+		margin-right:30px;
+		margin-top:10px;
+
+	}
+
+	#instabot, #twitterbot
+	{
+		margin-right:20px;
+	}
+
+	#top
+	{
+		margin-left:auto;
+		Font-size:29px;
+		color:#136D37;
+		text-decoration:none;
+		margin-top:10px;
+	}
+
+	#footerNav
+	{
+		margin-left:148.5px;
+		margin-top:25px;
+		Font-size:25px;
+		width:900px;
+	}
+
+	#footerNav ul
+	{
+		display:flex;
+	}
+
+	#footerNav ul li a {
+		display: block;
+		margin-right: 24px;
+		color:#136D37;
+		text-decoration:none;
+		border-right:solid 3px #136D37;
+		padding-right:24px;
+	}
+
+	#contactBot
+	{
+		border-right:none;
+	}
+
+	#crestLogoBot 
+	{
+		margin-left:349px;
+		margin-top:25px;
+		margin-bottom:25px;
+		Height:120px;
+		Width:223px;
+		Font-size:40px;
+		text-align:center;
+		background-color: black;
+	}
+
+
+
+
+
+/*	home page*/
+
+	#hero
+	{
+		margin:0;
+	}
+
+	#button
+	{
+		margin-top:-150px;
+		margin-bottom:125px;
+		margin-left:595px;
+	}
+
+	#readButton
+	{
+		color:#136D37;
+		text-decoration:none;
+		font-size:22px;
+		border:solid 5px #293F2B;
+		border-radius: 10px;
+		padding-left:20px;
+		padding-right:20px;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+
+	#readButton:hover
+	{
+		font-size:30px;
+		border:solid 5px #293F2B;
+		border-radius: 10px;
+		padding-left:30px;
+		padding-right:30px;
+		padding-top:15px;
+		padding-bottom:15px;
+		transition:.5s ease-in-out;
+	}
+
+	#bar1
+	{
+		background-color: #136D37;
+		margin-bottom:0;
+	}
+
+		#bar2
+	{
+		margin-top:-1.5px;
+		background-color: #F61712;
+		margin-bottom:0;
+	}
+
+	#secondPromo
+	{
+		margin-top:-2px;
+		margin-bottom:0px;
+	}
+
+	#thirdPromo
+	{
+		margin-top:-1px;
+	}
+
+
+
+
+/*	about page*/
+
+	#about
+	{
+		margin-top:50px;
+		display:flex;
+		flex-direction: row;
+		margin-bottom:50px;
+	}
+
+	#about p
+	{
+		font-family: Arial,'Bernard MT',  sans-serif;
+		font-size:21px;
+		line-height:25px;
+	}
+
+
+/*products page*/
+
+	#sixPack
+	{
+		margin-top:50px;
+		display:flex;
+		flex-direction: row;
+		margin-bottom:50px;
+	}
+
+	#sixPack p
+	{
+		margin-top:150px;
+		margin-left:15px;
+		font-family: Arial,'Bernard MT',  sans-serif;
+		font-size:25px;
+		line-height:33px;
+	}
+
+	#singlePack
+	{
+		margin-bottom:50px;
+		display:flex;
+		flex-direction: row;
+	}
+
+	#singlePack p
+	{
+		margin-top:200px;
+		font-family: Arial,'Bernard MT',  sans-serif;
+		font-size:25px;
+		line-height:33px;
+	}
+
+	#bar5
+	{
+		background-color: #136D37;
+	}
+
+/*advertisements page*/
+
+	#row1
+	{
+		margin-top:50px;
+		display:flex;
+		flex-direction: row;
+	}
+
+	#row2
+	{
+		margin-top:50px;
+		display:flex;
+		flex-direction: row;
+	}
+
+	#ad2, #ad4,
+	{
+		margin-left:auto:;
+	}
+
+	#ad5
+	{
+		margin-left:230px;
+		margin-bottom:50px;
+	}
+
+/*contact us page*/
+
+	form
+	{
+		margin-left:54px;
+		width:812px;
+		margin-top:100px;
+		margin-bottom:35px;
+	}
+
+	#Form input {
+		border: 5px solid #29402C;
+		color: #136D37;
+		width: 812px;
+		padding:5px 5px 5px 5px;
+		font-size:36px;
+	}
+
+	#Form textarea {
+		border: 5px solid #29402C;
+		color: #136D37;
+		width: 812px;
+		padding:5px 5px 5px 5px;
+		font-size:36px;
+	}
+
+	#name, #email, #messages
+	{
+		margin-bottom:25px;
+	}
+
+	#subButton
+	{
+		color:#29402C;
+		text-decoration:none;
+		font-size:36px;
+		border:solid 5px #C82C30;
+		margin-top:-25px;
+		margin-bottom:70px;
+		padding-right:84px;
+		padding-left:84px;
+		font-family: Arial,'Bernard MT',  sans-serif;
+	}
+
+	#submitButton
+	{
+		width:260px;
+		margin-bottom:75px;
+		margin-left:600px;
+	}
+
+
+
+/*submit page*/
+	#submitContainer
+	{
+		width:1200px;
+		margin:0 auto;
+		background-color:#317840;
+		height:980px;
+	}
+
+	#submitContainer h1
+	{
+		color: white;
+		text-align:center;
+		font-size:80px;
+		animation: 4s ease-in 1s infinite reverse both running slidein;
+	}
+
+	@keyframes slidein {
+  	from {
+    margin-top: 100px;
+  }
+
+  75%{
+  	font-size:120px;
+  }
+
+  to {
+    margin-top: 100px;
+  }
+}
+
+	#goBack
+	{
+		padding-top:300px;
+	}
+
+	#backButton
+	{
+		font-size:36px;
+		font-family: 'Bernard MT',Arial,  sans-serif;
+		margin-left:540px;
+		margin-top:50px;
+	}
+
+	#bButton
+	{
+		border:solid 5px #29402C;
+		background-color:white;
+		text-decoration:none;
+		padding:10px;
+		color:#29402C;
+	}
